@@ -1,30 +1,30 @@
-# EX-9 : IMPLEMENTATION-OF-RSA(Rivest, Shamir, Adleman)
+# EX-9 - IMPLEMENTATION OF RSA ENCRYPTION ALGORITHM
 ## AIM:
-To write a C program to implement the RSA encryption algorithm.
+To implement the RSA(Rivest, Shamir, Adleman) encryption algorithm(Rivest, Shamir, Adleman) using program.
 
-## ALGORITHM:
-### STEP-1:
+## ALGORITHM :
+### STEP 1 :
 Select two co-prime numbers as p and q.
 
-### STEP-2: 
+### STEP 2 : 
 Compute n as the product of p and q.
 
-### STEP-3: 
+### STEP 3 : 
 Compute (p-1)*(q-1) and store it in z.
 
-### STEP-4: 
+### STEP 4 : 
 Select a random prime number e that is less than that of z.
 
-### STEP-5: 
+### STEP 5 : 
 Compute the private key, d as e * mod-1(z).
 
-### STEP-6: 
+### STEP 6 : 
 The cipher text is computed as messagee *
 
-### STEP-7: 
+### STEP 7 : 
 Decryption is done as cipherdmod n.
 
-## PROGRAM:
+## PROGRAM :
 ```
 #include <stdio.h>
 #include <math.h>
@@ -82,10 +82,10 @@ int main() {
     return 0;
 }
 ```
-## OUTPUT:
+## OUTPUT :
 ![image](https://github.com/user-attachments/assets/8961d8bc-520e-483f-9077-2554b0e6c87a)
 
 
 
-## RESULT:
-Thus the C program to implement RSA encryption technique had been implemented successfully
+## RESULT :
+The program to implement RSA(Rivest, Shamir, Adleman) encryption technique had been executed successfully.
