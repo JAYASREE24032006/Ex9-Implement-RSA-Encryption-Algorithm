@@ -1,4 +1,4 @@
-# EX-9 - IMPLEMENTATION OF RSA ENCRYPTION ALGORITHM
+# EX-9 - RSA ENCRYPTION ALGORITHM
 ## AIM:
 To implement the RSA(Rivest, Shamir, Adleman) encryption algorithm(Rivest, Shamir, Adleman) using program.
 
