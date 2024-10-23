@@ -1,7 +1,8 @@
 # EX9 - RSA ENCRYPTION ALGORITHM
-## AIM:
+## AIM :
 To implement the RSA(Rivest, Shamir, Adleman) encryption algorithm(Rivest, Shamir, Adleman) using program.
-
+## THEORM :
+RSA encryption is a widely used public-key cryptographic algorithm that secures data transmission. It relies on the mathematical difficulty of factoring large prime numbers. The algorithm generates a pair of keys: a public key for encryption and a private key for decryption, ensuring secure communication between parties.
 ## ALGORITHM :
 ### STEP 1 :
 Select two co-prime numbers as p and q.
